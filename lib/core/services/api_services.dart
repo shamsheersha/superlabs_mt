@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 
 class ApiService {
   static const String baseUrl = 'https://api.virgincodes.com';
-  static const String cdnUrl = 'https://cdn.virgincodes.com'; // CDN base URL
+  static const String cdnUrl = 'https://bb-asset.blr1.cdn.digitaloceanspaces.com'; // CDN base URL
 
 
   String getFullImageUrl(String assetPath) {
